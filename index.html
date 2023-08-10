@@ -1,12 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <script src="javascript/sript.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>User Experiance Stratergy</title>
+  </head>
+  <body>
+    <header>
+      <div id="submenu-container">
+        <ul id="submenu">
+          <li class="submenu-item social">
+            <img src="img/whiteFB.png" alt="" />
+          </li>
+          <li class="submenu-item social">
+            <img src="img/Twitter_bird.png" alt="" />
+          </li>
+          <li class="submenu-item">English</li>
+          <li class="submenu-item">My Page</li>
+          <li class="submenu-item">Logout</li>
+        </ul>
+      </div>
+      <nav>
+        <img
+          id="menu-btn"
+          src="img/menu-btn.png"
+          alt="menu button"
+        />
+      </nav>
+      <ul id="menu">
+        <li id="logo-container">
+          <a id="logo" href="./index.html"
+            ><img src="img/logo.jpg" alt=""
+          /></a>
+        </li>
+        <li class="menu-item"><a href="./about.html">About</a></li>
+        <li class="menu-item"><a href="#">Program</a></li>
+        <li class="menu-item"><a href="#">Join</a></li>
+        <li class="menu-item"><a href="#">Sponsor</a></li>
+        <li class="menu-item"><a href="#">News</a></li>
+        <li class="menu-item"><a href="./index.html">CC Campain</a></li>
+      </ul>
+      <div id="logo-container-mobile">
+        <a id="logo-mobile" href="./index.html"
+          ><img src="img/logo.jpg" alt=""
+        /></a>
+      </div>
+      <img src="img/menu-close.png" alt="" />
+    </header>
+    <main>
+      <section id="hero-section">
+        <h3 class="subtitle">Fostering Design Innovation and Human-Centric Solutions</h3>
+        <h1 class="title">User Experiance<br /><span>Institute for UX Mastery</span></h1>
+        <p>
+          A joyful celebration believing in the value of openness and sharing,
+          creating a positive change with people from over 80 countries is
+          taking place in October, in Korea.
+        </p>
+        <p>2015.10.15(THU) ~ 16(FRI)</p>
+        <p>@ ux world pakistan</p>
+      </section>
+      <section id="material-section">
+        <article id="materials-wrapper">
+          <h1 class="section-title" id="material-section-title">
+            Core Curriculum
+          </h1>
+          <hr />
+          <div id="materials">
+            <ul class="materials-list">
+              <li class="material">
+                <img
+                  id="material-img"
+                  src="img/user reserch.png"
+                  alt="material's icon"
+                />
+                <h3 class="material-title">User Research</h3>
+                <p>
+                    This program focuses on teaching participants how to conduct effective user research, gather insights, and validate design decisions through usability testing.
+                </p>
+              </li>
+              <li class="material">
+                <img src="img/intrection design.png" alt="" />
+                <h3 class="material-title">Interaction Design</h3>
+                <p>
+                    This program delves into the specifics of designing interactive interfaces that provide seamless and intuitive user interactions. 
+                </p>
+              </li>
+              <li class="material">
+                <img src="img/architecture.png" alt="" />
+                <h3 class="material-title">Information Architecture</h3>
+                <p>
+                    In this course, participants learn how to organize and structure information in a way that enhances user navigation and comprehension.
+                </p>
+              </li>
+              <li class="material">
+                <img src="img/visual design.png" alt="" />
+                <h3 class="material-title">Visual Design for UX</h3>
+                <p>
+                    This program focuses on the visual aspects of design, teaching participants about color theory, typography, layout, and other design elements.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <button class="cta">Contact Us</button>
+          <a href="/">Learn more about us</a>
+        </article>
+      </section>
+      <section id="products-section">
+        <div id="products-wrapper">
+          <h1 class="section-title">Crafts</h1>
+          <hr />
+          <section id="products-list">
+            <!-- DYNAMICALLY POPULATED main.js -->
+          </section>
+        </div>
+        <button class="cta more">
+          <img src="img/down-arrow.png" />
+        </button>
+      </section>
+    </main>
+    <footer>
+      <section id="partners">
+        <h1 class="section-title">Partner</h1>
+        <hr />
+        <ul id="partners-list">
+          <li class="partners-div-li"><img src="img/mozilla.png" alt="mozilla"></li>
+          <li class="partners-div-li"><img src="img/google.png" alt="google"></li>
+          <li class="partners-div-li"><img src="img/airbnb.png" alt="airbnb"></li>
+        </ul>
+      </section>
+      <section id="footer-section">
+       <img class="f-logo" src="img/logo.jpg" alt="">
+       <p>All Rights Reserved ©</p>
+      </section>
+    </footer>
+    <script src="javascript/sript.js" type="text/javascript"></script>
+  </body>
 </html>
