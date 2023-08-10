@@ -124,8 +124,6 @@ header > img.mobile {
 
   50% {
     transform: scale(1.2);
-
-    /* Scale the image up during the "heartbeat" */
   }
 }
 
