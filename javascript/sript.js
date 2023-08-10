@@ -6,7 +6,7 @@ const productsArr = [
     name: 'Letra decorada con quilling o filigrana en papel.',
     materials: ['papel', 'cartulina'],
     description:
-      'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
+        'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
   },
   {
     id: 1,
@@ -14,7 +14,7 @@ const productsArr = [
     name: 'Converse en fomix termoformado.',
     materials: ['fomix', 'cinta'],
     description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const productsArr = [
     name: 'Nacimiento y vela a base de fomix.',
     materials: ['fomix', 'pintura'],
     description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const productsArr = [
     name: 'Angel navideño',
     materials: ['bombillo', 'cinta', 'tela'],
     description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const productsArr = [
     name: 'Bouquet de fotos familiares.',
     materials: ['impresion', 'cartulina', 'cinta', 'flores'],
     description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const productsArr = [
     name: 'CAMBIAR ESTE',
     materials: ['fomix', 'cinta'],
     description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
 ];
 
